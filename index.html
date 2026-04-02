@@ -6,7 +6,34 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Frontend Mentor Challenge</title>
   </head>
-  <body>
-    <h1 class="text-4xl text-blue-500">Hello World</h1>
+  <body class="text-center">
+    <header class="bg-neutral-900 py-6">
+      <h1 class="text-3xl font-bold text-white">Frontend Mentor Challenges</h1>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-8">
+      <section
+        class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+      >
+        <section class="bg-neutral-100 rounded-2xl p-6">
+          <img
+            src="./asset/images/social-links-profile-preview.webp"
+            class="w-full h-50"
+          />
+          <div class="grid grid-cols-2 gap-3">
+            <a
+              href="./social-links-profile-main/index.html"
+              class="w-full bg-sky-500 rounded-2xl p-1"
+              >View</a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/linerico/fe_mentor_solution/tree/main/social-links-profile-main"
+              class="w-full bg-sky-500 rounded-2xl p-1"
+              >Code</a
+            >
+          </div>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
